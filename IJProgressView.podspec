@@ -8,4 +8,5 @@ Pod::Spec.new do |spec|
   spec.source = { :git => 'https://github.com/Isuru-Nanayakkara/IJProgressView.git', :tag => "#{spec.version}" }
   spec.source_files = 'IJProgressView/IJProgressView/IJProgressView.swift'
   spec.requires_arc = true
+  spec.ios.deployment_target = '9.0'
 end
